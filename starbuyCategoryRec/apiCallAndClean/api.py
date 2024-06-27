@@ -5,6 +5,9 @@ import pandas as pd
 from urllib.parse import quote
 from datetime import datetime
 import boto3
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def lambda_handler(event, context):
     print("CALLING INTEREST FOR PRODUCT CATEGORIES......")
@@ -51,10 +54,11 @@ def lambda_handler(event, context):
 
 def call_google_trends(query, unsuccessful_calls):
     date_key = 'today 5-y'
+    api_key = os.getenv('GOOGLE_TRENDS_API_KEY')
 
     try:
         params = {
-            'api_key': 'nydDNGgplCGWiXB3FcQGwAUBQi0nIBCy',
+            'api_key': api_key,
             'geo': 'SG',
             "engine": "google_trends",
             "device": "desktop",
