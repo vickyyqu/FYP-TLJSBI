@@ -1,0 +1,67 @@
+[
+    {
+        "brand": "TOSHIBA",
+        "category": "DRYER",
+        "commparing_category": "DRYER",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 11.76,
+        "discountedPrice": 1155.0,
+        "listedPrice": 1309.0,
+        "model": "TOSHIBA 8KG HEAT PUMP DRYER TD-M90GHS(WW) - WHITE",
+        "modelNumber": "TD-M90GHS",
+        "platform": "COURTS",
+        "product": "TOSHIBA_TD-M90GHS"
+    },
+    {
+        "brand": "TOSHIBA",
+        "category": "DRYER",
+        "commparing_category": "DRYER",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 0.92,
+        "discountedPrice": 1199.0,
+        "listedPrice": 1299.0,
+        "model": "TOSHIBA HEAT PUMP DRYER TD-M90GHS(WW)",
+        "modelNumber": "TD-M90GHS",
+        "platform": "BEST DENKI",
+        "product": "TOSHIBA_TD-M90GHS"
+    },
+    {
+        "brand": "TOSHIBA",
+        "category": "DRYER",
+        "commparing_category": "DRYER",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 20.637898686679172,
+        "discountedPrice": 1269.0,
+        "listedPrice": 1599.0,
+        "model": "TOSHIBA TD-BK100GHS 9KG HEAT-PUMP DRYER",
+        "modelNumber": "TD-BK100GHS",
+        "platform": "MEGA DISCOUNT STORE",
+        "product": "TOSHIBA_TD-BK100GHS"
+    },
+    {
+        "brand": "TOSHIBA",
+        "category": "DRYER",
+        "commparing_category": "DRYER",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 15.24,
+        "discountedPrice": 1279.0,
+        "listedPrice": 1509.0,
+        "model": "TOSHIBA TOSHIBA 9KG HEAT PUMP DRYER TD-BK100GHS - DARK GREY",
+        "modelNumber": "TD-BK100GHS",
+        "platform": "HARVEY NORMAN",
+        "product": "TOSHIBA_TD-BK100GHS"
+    },
+    {
+        "brand": "TOSHIBA",
+        "category": "DRYER",
+        "commparing_category": "DRYER",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 10.87,
+        "discountedPrice": 1345.0,
+        "listedPrice": 1509.0,
+        "model": "TOSHIBA 9KG HEATPUMP DRYER TD-BK100GHS (SILVER)",
+        "modelNumber": "TD-BK100GHS",
+        "platform": "COURTS",
+        "product": "TOSHIBA_TD-BK100GHS"
+    }
+]

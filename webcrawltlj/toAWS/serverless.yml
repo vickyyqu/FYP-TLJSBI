@@ -1,0 +1,23 @@
+service: scrapy-lambda
+
+provider:
+  name: aws
+  runtime: python3.9
+  stage: dev
+  region: us-east-1
+  environment:
+    BUCKET: raw-data-fyp
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:*"
+      Resource: "arn:aws:s3:::${self:provider.environment.BUCKET}/*"
+
+functions:
+  scrapyFunction:
+    image: 590183683825.dkr.ecr.us-east-1.amazonaws.com/appliance-allstar-fyp:latest
+    events:
+      - http:
+          path: scrape
+          method: post
+          cors: true

@@ -1,0 +1,5 @@
+praw
+pandas
+torch
+transformers
+boto3

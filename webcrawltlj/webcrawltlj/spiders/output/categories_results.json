@@ -1,0 +1,98 @@
+{
+    "fridge": {
+        "forecast_relative_to_trend": 0.8975910401731267,
+        "perc_increase": 0.018391602429320458,
+        "forecast_value": 15.562718201669268,
+        "final_score": 14.255179744442222
+    },
+    "washing machine": {
+        "forecast_relative_to_trend": 0.9776160770041353,
+        "perc_increase": 0.0025123623766080956,
+        "forecast_value": 71.73594606621904,
+        "final_score": 70.31044086538445
+    },
+    "gas cooker": {
+        "forecast_relative_to_trend": 1.327078294452915,
+        "perc_increase": 0.5169691423269501,
+        "forecast_value": 5.498463574010632,
+        "final_score": 10.139427659881761
+    },
+    "induction cooker": {
+        "forecast_relative_to_trend": 1.2084926619462286,
+        "perc_increase": 0.021008176448924634,
+        "forecast_value": 88.76284299367063,
+        "final_score": 109.1339898790554
+    },
+    "tv": {
+        "forecast_relative_to_trend": 0.9515924852003257,
+        "perc_increase": 0.022390569124501693,
+        "forecast_value": 26.34457749990832,
+        "final_score": 25.659172058257827
+    },
+    "dryer": {
+        "forecast_relative_to_trend": 0.9442013635818016,
+        "perc_increase": -0.007694966010972366,
+        "forecast_value": 59.97758961721499,
+        "final_score": 56.16939638739958
+    },
+    "fans": {
+        "forecast_relative_to_trend": 0.9175825143526976,
+        "perc_increase": -0.007939172572688166,
+        "forecast_value": 58.28940632071361,
+        "final_score": 53.022570355946726
+    },
+    "oven": {
+        "forecast_relative_to_trend": 0.989604911339434,
+        "perc_increase": 0.014314856503948677,
+        "forecast_value": 25.054992986376508,
+        "final_score": 25.153202742200683
+    },
+    "hood": {
+        "forecast_relative_to_trend": 0.7933804627605381,
+        "perc_increase": -0.30574296807257634,
+        "forecast_value": 28.813215050675137,
+        "final_score": 14.050404001216696
+    },
+    "water purifier": {
+        "forecast_relative_to_trend": 0.9812335443623804,
+        "perc_increase": -0.02417399394629625,
+        "forecast_value": 63.154523412222446,
+        "final_score": 60.44263978364368
+    },
+    "air con": {
+        "forecast_relative_to_trend": 1.0526564652567252,
+        "perc_increase": 0.06106452274638394,
+        "forecast_value": 31.946538918654806,
+        "final_score": 35.57953088776401
+    },
+    "vacuum": {
+        "forecast_relative_to_trend": 0.9186360146744526,
+        "perc_increase": -0.012433936916464,
+        "forecast_value": 68.11218325846782,
+        "final_score": 61.72340198945643
+    },
+    "coffee machine": {
+        "forecast_relative_to_trend": 0.996919827623942,
+        "perc_increase": 0.06175160716080794,
+        "forecast_value": 24.2810887816661,
+        "final_score": 25.705695098622343
+    },
+    "air purifier": {
+        "forecast_relative_to_trend": 1.004859254824456,
+        "perc_increase": -0.05472549400830236,
+        "forecast_value": 33.00927155884707,
+        "final_score": 31.36322332800906
+    },
+    "smart lock": {
+        "forecast_relative_to_trend": 1.0667894299899392,
+        "perc_increase": -0.035454983036198706,
+        "forecast_value": 58.40962504128333,
+        "final_score": 60.23985833872729
+    },
+    "air fryer": {
+        "forecast_relative_to_trend": 0.9313333485041906,
+        "perc_increase": 0.01703066140350569,
+        "forecast_value": 34.798034116416346,
+        "final_score": 33.00120317154943
+    }
+}

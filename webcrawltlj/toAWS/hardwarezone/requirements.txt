@@ -1,0 +1,11 @@
+requests==2.31.0
+requests-file==1.5.1
+Scrapy==2.11.0
+selenium==4.16.0
+boto3==1.28.14
+service-identity==21.1.0
+cryptography==38.0.4
+pandas==2.2.1
+numpy==1.24.2
+regex==2023.12.25
+nltk==3.8

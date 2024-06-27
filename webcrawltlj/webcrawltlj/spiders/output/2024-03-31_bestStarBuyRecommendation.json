@@ -1,0 +1,41 @@
+[
+    {
+        "product": "SAMSUNG_DV80T6220HH",
+        "scraped": "2024-03-22_COURTS",
+        "brand": "SAMSUNG",
+        "category": "DRYER",
+        "dateCollected": "2024-03-22",
+        "discountedPrice": 1466.0,
+        "discountPercentage": 7.45,
+        "listedPrice": 1584.0,
+        "model": "SAMSUNG 8KG HEAT PUMP DRYER DV80T6220HH/SP (WHITE)",
+        "modelNumber": "DV80T6220HH",
+        "platform": "COURTS"
+    },
+    {
+        "product": "SAMSUNG_DV80T6220HH",
+        "scraped": "2024-03-22_HARVEY NORMAN",
+        "brand": "SAMSUNG",
+        "category": "DRYER",
+        "dateCollected": "2024-03-22",
+        "discountedPrice": 1483.0,
+        "discountPercentage": 0.0,
+        "listedPrice": 1483.0,
+        "model": "SAMSUNG SAMSUNG 8KG HEAT PUMP DRYER DV80T6220HH/SP",
+        "modelNumber": "DV80T6220HH",
+        "platform": "HARVEY NORMAN"
+    },
+    {
+        "product": "SAMSUNG_DV80T6220HH",
+        "scraped": "2024-03-22_BEST DENKI",
+        "brand": "SAMSUNG",
+        "category": "DRYER",
+        "dateCollected": "2024-03-22",
+        "discountedPrice": 1584.0,
+        "discountPercentage": 0.61,
+        "listedPrice": 2599.0,
+        "model": "SAMSUNG HEAT PUMP DRYER DV80T6220HH/SP",
+        "modelNumber": "DV80T6220HH",
+        "platform": "BEST DENKI"
+    }
+]

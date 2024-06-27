@@ -1,0 +1,7 @@
+#app {
+    display: flex;
+  justify-content: center; /* Align horizontally in the center */
+  align-items: flex-start; /* Align vertically at the top */
+  min-height: 100vh; 
+  width: 100%;
+  }

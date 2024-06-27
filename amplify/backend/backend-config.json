@@ -1,0 +1,66 @@
+{
+  "auth": {
+    "ApplianceAllStar": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS",
+            "REQUIRES_UPPERCASE"
+          ],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_storage_applianceallstarc286ab84_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "applianceallstarc286ab84"
+        }
+      ]
+    },
+    "AMPLIFY_storage_applianceallstarc286ab84_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "applianceallstarc286ab84"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "applianceallstarc286ab84": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    },
+    "storageCpiRsi": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
+  }
+}

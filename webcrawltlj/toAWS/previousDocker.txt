@@ -1,0 +1,31 @@
+FROM public.ecr.aws/lambda/python:3.10
+
+# Update and install system packages
+RUN yum update -y && \
+    yum install -y wget unzip
+
+# Set the ChromeDriver version
+# Set the ChromeDriver version
+ARG CHROMEDRIVER_VERSION=latest
+# Download and install ChromeDriver
+RUN if [ "${CHROMEDRIVER_VERSION}" = "latest" ]; then \
+        CHROMEDRIVER_VERSION=$(wget -qO- "https://chromedriver.storage.googleapis.com/LATEST_RELEASE"); \
+    fi && \
+    wget -q "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip" -O /tmp/chromedriver_linux64.zip && \
+    unzip /tmp/chromedriver_linux64.zip -d /usr/local/bin/ && \
+    rm /tmp/chromedriver_linux64.zip && \
+    chmod +x /usr/local/bin/chromedriver
+
+# Install a specific version of Google Chrome
+RUN wget -qO- https://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable-114.0.5735.90-1.x86_64.rpm -O /tmp/google-chrome-stable.rpm && \
+    yum localinstall -y /tmp/google-chrome-stable.rpm && \
+    rm /tmp/google-chrome-stable.rpm
+
+# Optional: Uncomment the following line if you need gcc, libxml2-devel, libxslt-devel
+# RUN yum install -y gcc libxml2-devel libxslt-devel
+
+COPY . ${LAMBDA_TASK_ROOT}
+
+RUN pip3 install -r requirements.txt
+
+CMD ["lambda_function.handler"]

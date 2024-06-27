@@ -1,0 +1,67 @@
+[
+    {
+        "brand": "SAMSUNG",
+        "category": "OVEN",
+        "commparing_category": "OVEN",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 26.778242677824267,
+        "discountedPrice": 175.0,
+        "listedPrice": 239.0,
+        "model": "SAMSUNG MG23K3513AK 23L GRILL MICROWAVE OVEN",
+        "modelNumber": "MG23K3513AK",
+        "platform": "MEGA DISCOUNT STORE",
+        "product": "SAMSUNG_MG23K3513AK"
+    },
+    {
+        "brand": "SAMSUNG",
+        "category": "OVEN",
+        "commparing_category": "OVEN",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 22.145328719723185,
+        "discountedPrice": 225.0,
+        "listedPrice": 289.0,
+        "model": "SAMSUNG MS30T5018AP 30L SOLO MICROWAVE OVEN",
+        "modelNumber": "MS30T5018AP",
+        "platform": "MEGA DISCOUNT STORE",
+        "product": "SAMSUNG_MS30T5018AP"
+    },
+    {
+        "brand": "LG",
+        "category": "OVEN",
+        "commparing_category": "OVEN",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 19.093851132686083,
+        "discountedPrice": 250.0,
+        "listedPrice": 309.0,
+        "model": "LG MS2595DIS 25L SMART INVERTER MICROWAVE OVEN",
+        "modelNumber": "MS2595DIS",
+        "platform": "MEGA DISCOUNT STORE",
+        "product": "LG_MS2595DIS"
+    },
+    {
+        "brand": "SAMSUNG",
+        "category": "OVEN",
+        "commparing_category": "OVEN",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 12.024048096192384,
+        "discountedPrice": 439.0,
+        "listedPrice": 499.0,
+        "model": "SAMSUNG MC28M6055CK 28L MICROWAVE CONVECTION OVEN",
+        "modelNumber": "MC28M6055CK",
+        "platform": "MEGA DISCOUNT STORE",
+        "product": "SAMSUNG_MC28M6055CK"
+    },
+    {
+        "brand": "WHIRLPOOL",
+        "category": "OVEN",
+        "commparing_category": "OVEN",
+        "dateCollected": "2024-04-01",
+        "discountPercentage": 26.67,
+        "discountedPrice": 591.0,
+        "listedPrice": 806.0,
+        "model": "WHIRLPOOL W4 OMK38HU0BA 71L W COLLECTION MULTIFUNCTION HYDROLYTIC BUILT-IN OVEN",
+        "modelNumber": "OMK38HU0BA",
+        "platform": "COURTS",
+        "product": "WHIRLPOOL_OMK38HU0BA"
+    }
+]
